@@ -1,0 +1,14 @@
+body {
+    background-color: white;
+}
+
+#container {
+    display: flex;
+    height: 960px;
+    width: 960px;
+}
+
+.cell {
+    border: solid 1px black;
+    flex: 1 1 60px;
+}
