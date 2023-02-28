@@ -1,4 +1,5 @@
 const container = document.querySelector('.container');
+const newGridButton = document.querySelector('button');
 
 function makeGrid(num) {
     for (let i = 0; i < num; i++) {
@@ -13,12 +14,17 @@ function makeGrid(num) {
     }
 }
 
-makeGrid(16);
+function getGridSize() {
+    
+}
 
-const cellElement = document.querySelectorAll('.cell');
+makeGrid(100);
 
-cellElement.forEach((div) => {
+
+const cellElements = document.querySelectorAll('.cell');
+
+cellElements.forEach((div) => {
     div.addEventListener('mouseover', (e) => {
-        e.target.style.backgroundColor = 'black';
+        e.target.style.backgroundColor = 'dimgray';
     })
 });

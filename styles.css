@@ -5,9 +5,9 @@ body {
 }
 
 .container {
-    max-width: 960px;
-    height: 960px;
-    margin: 0 auto;
+    max-width: 750px;
+    height: 750px;
+    margin: 32px auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -19,7 +19,11 @@ body {
 }
 
 .cell {
-    background-color: lightblue;
+    background-color: silver;
     outline: solid black thin;
     flex: 1;
+}
+
+.button {
+    align-self: center;
 }
