@@ -20,6 +20,6 @@ body {
 
 .cell {
     background-color: lightblue;
-    border: solid black thin;
+    outline: solid black thin;
     flex: 1;
 }
